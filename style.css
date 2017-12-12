@@ -1,6 +1,15 @@
 /*
 Theme Name: Gym Clothes
-Description: This is an awesome theme, at least my mom says so.
 Template: sela
-Author: Marty McFly
 */
+
+.jumbotron {
+    background: url("../gymtheme/images/IMG_0686%20(2).JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    height: 370px;
+}
