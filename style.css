@@ -8,7 +8,11 @@ h1 a{
     color: #4f4f4f;
 }
 
+.entry-title a:hover{
+    color: #777777;
+}
 
+/* Comment-form */
 #commentform > p.logged-in-as > a{
     color: #4f4f4f;
     font-weight: 500;
@@ -16,6 +20,10 @@ h1 a{
 
 #commentform > p.logged-in-as > a:hover{
     color: #777777;
+}
+
+#submit{
+    background-color: #777777;
 }
 
 /*Jumbotron*/
