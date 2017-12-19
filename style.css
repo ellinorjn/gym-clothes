@@ -3,13 +3,91 @@ Theme Name: Gym Clothes
 Template: sela
 */
 
+
+h1 a{
+    color: #4f4f4f;
+}
+
+
+#commentform > p.logged-in-as > a{
+    color: #4f4f4f;
+    font-weight: 500;
+}
+
+#commentform > p.logged-in-as > a:hover{
+    color: #777777;
+}
+
+/*Jumbotron*/
 .jumbotron {
-    background: url("../gymtheme/images/IMG_0686%20(2).JPG");
+    background: url("../gymtheme/images/1984x880-hero-image-1984x879.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: white;
-    text-align: center;
-    margin-bottom: 0px;
-    height: 370px;
+    height: 400px;
 }
+
+.site-branding{
+    padding: 20px;
+    margin-top: -120px;
+    opacity: 0.6;
+}
+
+/*Navbar*/
+#site-navigation{
+    background: #777777;
+}
+
+.main-navigation .nav-menu  li  a::after{
+    color: #515050;
+}
+
+.site-title, .site-description{
+    font-weight: bold;
+  
+}
+/*Search field*/
+.widget_search .search-field{
+    display: none;
+}
+
+.menu-toggle{
+    background: #777777;
+}
+
+/*Footer*/
+.site-footer{
+    background: #777777;
+}
+
+.site-footer a:hover{
+    color: #4f4f4f;
+}
+
+li a{
+    color: #4f4f4f;
+}
+
+.about-xx{
+    float:left;
+    width: 45%;
+    border: 1px solid blue;
+    text-align: center;
+    margin: 0px auto;
+    min-height: 400px;
+}
+
+/*Template for news*/
+.news article{
+    width: 45%;
+    float:left;
+    margin-left:35px;
+    border: 1px solid red;
+}
+
+
+.page-template-new-products .content-area{
+    width: 100%;
+    
+}
+
