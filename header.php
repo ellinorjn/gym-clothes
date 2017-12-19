@@ -22,10 +22,9 @@
 	<header id="masthead" class="site-header" role="banner">
 		<a class="skip-link screen-reader-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'sela' ); ?>"><?php _e( 'Skip to content', 'sela' ); ?></a>
 
-        <div class="jumbotron">
-        </div>
-
-		<div class="site-branding">
+       
+        <div class="jumbotron"></div>
+            <div class="site-branding">
 			<?php sela_the_site_logo(); ?>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php
@@ -35,6 +34,9 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
+        
+
+		
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Menu', 'sela' ); ?></button>
