@@ -85,17 +85,28 @@ li a{
     min-height: 400px;
 }
 
+/*Template first page*/
+.page-template-front-page .main{
+    max-width: 70%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-template-front-page h1{
+    text-align: center;
+}
+
 /*Template for news*/
 .news article{
     width: 45%;
     float:left;
-    margin-left:35px;
-    border: 1px solid red;
+    margin-left:35px; 
 }
-
 
 .page-template-new-products .content-area{
     width: 100%;
     
 }
+
+
 

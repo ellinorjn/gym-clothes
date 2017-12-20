@@ -1,12 +1,12 @@
 <?php
 /**
- * The main template file.
+ * Template Name: First page
  *
- * @package Sela
+ * 
  */
 
 get_header(); ?>
-
+<div class="main">
 <?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -18,7 +18,7 @@ get_header(); ?>
 		<?php endif;
 
 get_template_part('content', 'front');
-the_post_thumbnail();
+the_post_thumbnail();?>
+</div>
 
-
-get_footer(); ?>
+<?php get_footer(); ?>

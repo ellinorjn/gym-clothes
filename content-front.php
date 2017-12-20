@@ -8,7 +8,6 @@ if ($the_query->have_posts()):
     while ( $the_query->have_posts()) : $the_query->the_post();
         the_post_thumbnail();
 endwhile;
-    else: echo 'bajs';
 endif;
    }
  

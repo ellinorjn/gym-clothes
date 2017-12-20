@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Most clicked posts
+*Template Name: Most clicked posts
 *
 */
 get_header(); ?>
